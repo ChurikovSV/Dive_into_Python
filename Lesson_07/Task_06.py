@@ -42,4 +42,4 @@ def gen_files(path: str | Path, **kwargs) -> None:
 
 
 if __name__ == '__main__':
-    gen_files('C:/Users/Churikov-SV/Python_Project/Dive_into_Python/Lesson_07/Task_06', jpg=3, txt=2, bin=1)
+    gen_files('/Lesson_07/Task_06', jpg=3, txt=2, bin=1)

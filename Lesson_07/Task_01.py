@@ -20,4 +20,4 @@ def write_random_to_file(num_pairs: int, file_name: str) -> None:
             f.write(str(int_num) + ' | ' + str(float_num) + '\n')
 
 
-write_random_to_file(10, 'random_file.txt')
+write_random_to_file(10, 'text/random_file.txt')

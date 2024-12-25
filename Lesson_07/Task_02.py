@@ -28,7 +28,7 @@ def generate_name(count: int, file_name: str) -> None:
         with open(file_name, 'a', encoding='UTF-8') as f:
             f.write(name.title() + '\n')
 
-generate_name(10, 'name.txt')
+generate_name(10, 'text/name.txt')
 
 
 
